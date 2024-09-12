@@ -1,0 +1,149 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  border: 1px solid red;
+  box-sizing: border-box;
+  height: 768px;
+  width: 1336px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+/* Your CSS Here */
+#header{
+  background: 
+  linear-gradient(green,white);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.li_nav{
+  list-style-type: none;
+  border: dotted blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 8px;
+}
+#h1{
+  width: 75%;
+  text-align: center;
+}
+.ul_nav
+{
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav_container{
+  display: flex;
+}
+.form_nav{
+  display:flex;
+}
+#Name 
+{
+  width: 75%;
+  border-radius:0px;
+  padding: 10px;
+  font-size: 16px;
+  border:none;
+}
+.button{
+  width: 25%;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: purple;
+  color:white;
+  border: dotted;
+}
+.button:hover {
+  background-color: orange;
+}
+
+.paragraph_main{
+  font-size: 18px;
+  width: 1165px;
+  list-style-type: none;
+}
+
+.checked_container{
+  width: 40px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+   
+.checkmark{
+  transform: rotate(45deg);
+  height: 15px;
+  width: 5px;
+  margin-left: 10px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  margin-right: 10px;
+
+}
+.grade{
+  width: 120px;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+.container{
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-left: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 8px;
+}
+.container_checkmark{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+.container:hover .checkmark{
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.container:hover{
+  background-color: white;
+  color: black;
+}
+.container:hover .Grade{
+  border: 1px solid black;
+}
+.pink {
+  background-color: pink;
+  
+}
+.green{
+  background-color: green;
+  color: white
+}
+.sky_blue{
+  background-color: skyblue;
+}
+.crossed_text{
+  text-decoration: line-through;
+}
+.main_list{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-block: 0; 
+  padding: 0;
+  width: 1336px;
+}
